@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Product Store</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>My Product Store</h1>
+        <p>Find your favorite products</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+
+        <h2>Popular Products</h2>
+
+        <section class="products">
+
+            <div class="product-card">
+                <div class="product-image">👗</div>
+                <h3>Fashion Dress</h3>
+                <p>Beautiful and stylish dress.</p>
+                <h4>₹999</h4>
+                <button onclick="addToCart('Fashion Dress')">
+                    Add to Cart
+                </button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">👜</div>
+                <h3>Hand Bag</h3>
+                <p>Trendy bag for everyday use.</p>
+                <h4>₹799</h4>
+                <button onclick="addToCart('Hand Bag')">
+                    Add to Cart
+                </button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">👟</div>
+                <h3>Sports Shoes</h3>
+                <p>Comfortable shoes for daily wear.</p>
+                <h4>₹1,499</h4>
+                <button onclick="addToCart('Sports Shoes')">
+                    Add to Cart
+                </button>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 My Product Store</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
